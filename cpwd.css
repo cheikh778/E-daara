@@ -1,0 +1,126 @@
+.change-password-container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .password-form-section {
+    border-radius: 10px;
+    background-color: #fff;
+    align-self: center;
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 2%;
+    width: 100%;
+    max-width: 1000px;
+    flex-direction: column;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    padding: 80px 60px;
+    border: 1px solid rgba(191, 191, 191, 0.3);
+  }
+  
+  .section-title {
+    color: #2a61a4;
+    font-size: 45px;
+    line-height: 1;
+    margin: 0;
+  }
+  
+  .section-description {
+    color: #828282;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.15px;
+    margin-top: 32px;
+  }
+  
+  .password-form {
+    display: flex;
+    margin-top: 32px;
+    width: 537px;
+    max-width: 100%;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 24px;
+  }
+  
+  .form-label {
+    color: #2a61a4;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.25px;
+    display: block;
+    margin-bottom: 4px;
+  }
+  
+  .password-input-wrapper {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #eaeaea;
+    background-color: #fafafa;
+    padding: 16px 12px;
+  }
+  
+  .password-input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    color: #828282;
+    letter-spacing: 0.15px;
+  }
+  
+  .password-input::placeholder {
+    color: #828282;
+  }
+  
+  .password-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+  }
+  
+  .submit-button {
+    border-radius: 5px;
+    background-color: #2a61a4;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.15px;
+    padding: 18px 32px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #1e4c8c;
+  }
+  
+  @media (max-width: 991px) {
+    .password-form-section {
+      max-width: 100%;
+      margin-top: 40px;
+      padding: 40px 20px;
+    }
+  
+    .section-title {
+      font-size: 40px;
+    }
+  
+    .password-form {
+      width: 100%;
+    }
+  
+    .submit-button {
+      width: 100%;
+    }
+  }

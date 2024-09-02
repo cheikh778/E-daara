@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Daara</title>
+  <link rel="icon" type="image/png" href="img/logo.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="font.css">
+</head>
+<body>
+  
+
+  <!-- Navbar Section -->
+  <section class="navbar-section">
+    <nav class="nav-menu" id="navbar">
+      <div class="logo-container">
+        <a href="index.html">
+          <img src="img/logo.png" alt="Logo" class="logo-image">
+        </a>
+      </div>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html#landing-section" class="nav-link">Accueil</a>
+        <a href="index.html#about-section" class="nav-link">A Propos</a>
+        <a href="index.html#services-section" class="nav-link">Services</a>
+        <a href="index.html#categories-section" class="nav-link">Catégories</a>
+        <a href="index.html#contact-section" class="nav-link">Contact</a>
+      </div>
+      <div class="auth-buttons">
+        <a href="signup.html" class="auth-button">
+          Inscription
+        </a>
+        <a href="login.html" class="auth-button">
+          Connexion
+        </a>
+      </div>
+      <button class="toggle-button" id="toggleButton">&#9776;</button>
+    </nav>
+  </section>
+
+
+<!-- Hero Section -->
+<section class="landing-section" id="landing-section">
+  <div class="hero-container">
+    <img src="img/bg-hero.png" alt="Hero Background" class="hero-background">
+    <h1 class="hero-title">
+      <span style="color: #2a61a4;">Bienvenue</span>
+      <span style="color: #af6b04;">Sur</span>
+      <span style="color: #009900;">E-Daara</span>
+    </h1>
+    <p class="hero-subtitle">Apprendre sans limite, Réussir sans frontières</p>
+    <a href="signup.html" class="cta-button">Rejoignez-nous</a>
+  </div>
+</section>
+
+<!-- About Section -->  
+    <section class="about-section">
+      <h2 class="section-title">A Propos</h2>
+      <div class="about-content">
+        <div class="about-row">
+          <div class="about-column">
+            <p class="about-text">
+              <span style="color: #2a61a4; font-weight: 600; font-size: 55px;">
+                On vous aide dans votre plan de conversion professionnelle.
+              </span>
+              <br><br>
+              <span style="font-weight: 400; font-size: 24px; color: #000;">
+                Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s
+              </span>
+            </p>
+          </div>
+          <div class="about-image-column">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/a91f1095cc74959a5dd587aa11059810bcd9b2fd6f949d7ea7043d11bf138d09?apiKey=c9b06d9462114f40a4989945771e3c48&&apiKey=c9b06d9462114f40a4989945771e3c48" alt="About Image" class="about-image">
+          </div>
+        </div>
+        <div class="about-details">
+          <div class="details-row">
+            <div class="about-column">
+              <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/2f05ba322c8a78342a0f12c6b4c26afdc69638d41af775de0860035548eed4e0?apiKey=c9b06d9462114f40a4989945771e3c48&&apiKey=c9b06d9462114f40a4989945771e3c48" alt="Details Image" class="details-image">
+            </div>
+            <div class="details-column">
+              <p class="details-text">
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+
+<!-- Services Section -->
+    <section class="services-section" id="services-section">
+      <div class="services-container">
+        <h2 class="section-title">Nos Services</h2>
+        <div class="services-row">
+          <div class="service-column">
+            <div class="service-card">
+              <div class="service-content">
+                <div class="icon-container">
+                  <i class="ti ti-screen-share icon-image"></i>
+                </div>
+                <div class="service-text">
+                  <h3 class="service-title">Formations en ligne</h3>
+                  <p class="service-description">Accédez à une variété de cours en ligne dispensés par des experts dans différents domaines.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="service-column">
+            <div class="service-card">
+              <div class="service-content">
+                <div class="icon-container">
+                  <i class="ti ti-school icon-image"></i>
+                </div>
+                <div class="service-text">
+                  <h3 class="service-title">Certifications</h3>
+                  <p class="service-description">Obtenez des certificats reconnus après avoir terminé vos cours et évaluations.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="service-column">
+            <div class="service-card">
+              <div class="service-content">
+                <div class="icon-container">
+                  <i class="ti ti-device-analytics icon-image"></i>
+                </div>
+                <div class="service-text">
+                  <h3 class="service-title">Projets pratiques</h3>
+                  <p class="service-description">Participez à des projets pratiques pour appliquer vos connaissances et développer de nouvelles compétences.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="services-row">
+          <div class="service-column">
+            <div class="service-card">
+              <div class="service-content">
+                <div class="icon-container">
+                  <i class="ti ti-heart-handshake icon-image"></i>
+                </div>
+                <div class="service-text">
+                  <h3 class="service-title">Support Communautaire</h3>
+                  <p class="service-description">Rejoignez notre communauté d'apprenants pour échanger des idées, poser des questions et obtenir de l'aide.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="service-column">
+            <div class="service-card">
+              <div class="service-content">
+                <div class="icon-container">
+                  <i class="ti ti-archive icon-image"></i>
+                </div>
+                <div class="service-text">
+                  <h3 class="service-title">Ressources en ligne</h3>
+                  <p class="service-description">Accédez à une vaste bibliothèque de ressources pour compléter votre apprentissage.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="service-column">
+            <div class="service-card">
+              <div class="service-content">
+                <div class="icon-container">
+                  <i class="ti ti-user-hexagon icon-image"></i>
+                </div>
+                <div class="service-text">
+                  <h3 class="service-title">Mentorat</h3>
+                  <p class="service-description">Rejoignez notre plateforme avec un mentor en ligne pour transformer vos compétences avec l'accompagnement personnalisé de professionnels expérimentés.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories-section" id="categories-section">
+      <div class="categories-container">
+        <h2 class="section-title">Nos Catégories de Cours</h2>
+        <div class="categories-grid">
+          <div class="categories-content">
+            <div class="categories-row">
+              <div class="category-card">
+                <div class="category-image-container">
+                  <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/590513641e5026e5b38dbc15cc1930c083e53e3ece02c99a5bc935cd911b8e66?apiKey=c9b06d9462114f40a4989945771e3c48&&apiKey=c9b06d9462114f40a4989945771e3c48" alt="Programming Category" class="category-image">
+                </div>
+                <div class="category-body">
+                  <div class="category-text">
+                    <h3 class="category-title">Programmations</h3>
+                    <p class="category-description">Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="category-card">
+                <div class="category-image-container">
+                  <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/33538cc0169602dbaa61710e9374fd19d0c66ed11ac71f444b10ee892a8fca6c?apiKey=c9b06d9462114f40a4989945771e3c48&&apiKey=c9b06d9462114f40a4989945771e3c48" alt="Business Category" class="category-image">
+                </div>
+                <div class="category-body">
+                  <div class="category-text">
+                    <h3 class="category-title">Business</h3>
+                    <p class="category-description">Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="category-card">
+                <div class="category-image-container">
+                  <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/9ab6cb0990b92c639b4f33b363957e0a6071bf014cf165da02f00d2a48a022af?apiKey=c9b06d9462114f40a4989945771e3c48&&apiKey=c9b06d9462114f40a4989945771e3c48" alt="Design Category" class="category-image">
+                </div>
+                <div class="category-body">
+                  <div class="category-text">
+                    <h3 class="category-title">Design</h3>
+                    <p class="category-description">Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="categories-row">
+              <div class="category-card">
+                <div class="category-image-container">
+                  <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/93d6371bdf07acc5f625e383f83b16eca9b01b5f462852e2297b92752db4a321?apiKey=c9b06d9462114f40a4989945771e3c48&&apiKey=c9b06d9462114f40a4989945771e3c48" alt="AI/Machine Learning Category" class="category-image">
+                </div>
+                <div class="category-body">
+                  <div class="category-text">
+                    <h3 class="category-title">IA/Machine Learning</h3>
+                    <p class="category-description">Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="category-card">
+                <div class="category-image-container">
+                  <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/7721132f4ae1f3a251b01bab0dc18e4751a3a69ef7d8bd3a1994581c2ddf9a2d?apiKey=c9b06d9462114f40a4989945771e3c48&&apiKey=c9b06d9462114f40a4989945771e3c48" alt="Cyber Security Category" class="category-image">
+                </div>
+                <div class="category-body">
+                  <div class="category-text">
+                    <h3 class="category-title">Cyber Sécurité</h3>
+                    <p class="category-description">Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="category-card">
+                <div class="category-image-container">
+                  <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/c87d2335c91cc03784bfa8a2216ea956023d54a10b3891bcb634ff182ef32997?apiKey=c9b06d9462114f40a4989945771e3c48&&apiKey=c9b06d9462114f40a4989945771e3c48" alt="Internet of Things Category" class="category-image">
+                </div>
+                <div class="category-body">
+                  <div class="category-text">
+                    <h3 class="category-title">Internet des Objets</h3>
+                    <p class="category-description">Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+      
+      <section class="contact-section">
+        <div class="contact-container">
+          <h2 class="section-title">Contacts</h2>
+          <div class="contact-content">
+            <div class="contact-row">
+              <div class="contact-info">
+                <div class="contact-info-inner">
+                  <div class="contact-details">
+                    <h3 class="contact-heading">Information de contact</h3>
+                    <p class="contact-subheading">Envoyez-nous un message</p>
+                    <div class="contact-item">
+                      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/16efcee12261d35860456522f48970b4da39ef461d25553ee37bea2a565d1633?placeholderIfAbsent=true&apiKey=6857e1265b87489f84b0cc3502d7136b" alt="Phone icon" class="contact-icon">
+                      <span>+1012 3456 789</span>
+                    </div>
+                    <div class="contact-item">
+                      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/f33a12af71453b99485ac9031fecc220eb9409e1999afd1ffbb8eef1e6b8f8f2?placeholderIfAbsent=true&apiKey=6857e1265b87489f84b0cc3502d7136b" alt="Email icon" class="contact-icon">
+                      <span>contact@e-daara.sn</span>
+                    </div>
+                    <div class="contact-item">
+                      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/0a95236edbb272ad63891b22868a195f09637d663fca1420ca3cc4475295718e?placeholderIfAbsent=true&apiKey=6857e1265b87489f84b0cc3502d7136b" alt="Location icon" class="contact-icon">
+                      <span>123 Rue 10 medina Dakar</span>
+                    </div>
+                  </div>
+                  <div class="social-icons">
+                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/0debd14da9585c1dad45f5a6ff4fd320cbedcf432b2172817bdedd5196863842?placeholderIfAbsent=true&apiKey=6857e1265b87489f84b0cc3502d7136b" alt="Facebook" class="social-icon">
+                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/dbbae8e4adbfcf538ce75c61b411e6ff36472b5560c672f160c6f2b84a380e2a?placeholderIfAbsent=true&apiKey=6857e1265b87489f84b0cc3502d7136b" alt="Twitter" class="social-icon">
+                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/5991998e598f35a95ee251bb1fcdd7e9c398b88aa75aa258fa3268bc2f2d9584?placeholderIfAbsent=true&apiKey=6857e1265b87489f84b0cc3502d7136b" alt="Instagram" class="social-icon">
+                  </div>
+                </div>
+              </div>
+              <div class="contact-form">
+                <form class="form-container">
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label for="firstname">Prénom</label>
+                      <input type="text" id="firstname" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="lastname">Nom</label>
+                      <input type="text" id="lastname" class="form-input" value="NDAO" required>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" id="email" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="phone">Numéro de téléphone</label>
+                      <input type="tel" id="phone" class="form-input" value="+1 012 3456 789" required>
+                    </div>
+                  </div>
+                  <p>Selectionnez le sujet qui vous intéresse ?</p>
+                  <div class="form-topics">
+                    <div class="topic-item">
+                      <input type="checkbox" id="coding" class="topic-checkbox">
+                      <label for="coding">Codage</label>
+                    </div>
+                    <div class="topic-item">
+                      <input type="checkbox" id="design" class="topic-checkbox">
+                      <label for="design">Design</label>
+                    </div>
+                    <div class="topic-item">
+                      <input type="checkbox" id="ai" class="topic-checkbox">
+                      <label for="ai">IA</label>
+                    </div>
+                    <div class="topic-item">
+                      <input type="checkbox" id="business" class="topic-checkbox">
+                      <label for="business">Business</label>
+                    </div>
+                  </div>
+                  <label for="message" class="form-message">Message</label>
+                  <textarea id="message" class="message-input" placeholder="Ecrivez votre message.." required></textarea>
+                  <button type="submit" class="submit-button">Envoyer le message</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+    /* Footer */
+    
+    <footer class="footer">
+      <div class="logo-container" id="logo-container">
+        <img src="img/logo.png" style="background-color: #fff;" alt="E-daara Logo" class="logo" />
+      </div>
+      
+      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/31679d72b9a0e223d30f91e907873b4637f31ad4ebe4385017295855e36f14d2?placeholderIfAbsent=true&apiKey=c9b06d9462114f40a4989945771e3c48" alt="" class="divider" />
+      
+      <div class="footer-content">
+        <section class="contact-info-footer">
+          <h2 class="footer-heading">Contactez-nous</h2>
+          <div class="contact-item">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/2ca4edef78bc1db4bbd66061b88d4309027fd84cd0bb1b37b6e18c8cec9442be?placeholderIfAbsent=true&apiKey=c9b06d9462114f40a4989945771e3c48" alt="" class="contact-icon" />
+            <span>+1012 3456 789</span>
+          </div>
+          <div class="contact-item">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/f33a12af71453b99485ac9031fecc220eb9409e1999afd1ffbb8eef1e6b8f8f2?placeholderIfAbsent=true&apiKey=c9b06d9462114f40a4989945771e3c48" alt="" class="contact-icon" />
+            <span>contact@e-daara.sn</span>
+          </div>
+          <div class="contact-item">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/0a95236edbb272ad63891b22868a195f09637d663fca1420ca3cc4475295718e?placeholderIfAbsent=true&apiKey=c9b06d9462114f40a4989945771e3c48" alt="" class="contact-icon" />
+            <span>123 Rue 10 medina Dakar</span>
+          </div>
+        </section>
+    
+        <nav class="company-links">
+          <h2 class="footer-heading">Etablissement</h2>
+          <a href="index.html#landing-section" class="footer-link">Accueil</a>
+          <a href="index.html#about-section" class="footer-link">A Propos</a>
+          <a href="index.html#contact-section" class="footer-link">Contact</a>
+        </nav>
+    
+        <nav class="legal-links">
+          <h2 class="footer-heading">Legal</h2>
+          <a href="#" class="footer-link">Privacy Policy</a>
+          <a href="#" class="footer-link">Terms & Services</a>
+          <a href="#" class="footer-link">Terms of Use</a>
+        </nav>
+    
+        <nav class="quick-links">
+          <h2 class="footer-heading">Liens Rapides</h2>
+          <a href="index.html#services-section" class="footer-link">Nos Services</a>
+          <a href="index.html#categories-section" class="footer-link">Catégories de cours</a>
+          <a href="#" class="footer-link">FAQ</a>
+        </nav>
+    
+        <section class="newsletter">
+          <h2 class="footer-heading">Rejoins notre news letter</h2>
+          <form class="newsletter-form">
+            <label for="email-input" class="visually-hidden">Votre adresse e-mail</label>
+            <input type="email" id="email-input" class="newsletter-input" placeholder="Votre adresse e-mail" required />
+            <button type="submit" class="newsletter-button">Inscription</button>
+          </form>
+          <p class="newsletter-disclaimer">* Nous enverrons toutes les nouveautés chaque semaine</p>
+        </section>
+      </div>
+    </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+    document.getElementById('toggleButton').addEventListener('click', function() {
+        document.getElementById('navLinks').classList.toggle('active');
+    });
+    </script>
+
+</body>
+</html>

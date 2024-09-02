@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S'inscrire</title>
+    <link rel="icon" type="image/png" href="img/logo.png" style="background-color: #fff;">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="font.css">
+</head>
+<body>
+
+  <!-- Navbar Section -->
+  <section class="navbar-section">
+    <nav class="nav-menu" id="navbar">
+      <div class="logo-container">
+        <a href="index.html">
+            <img src="img/logo.png" alt="Logo" class="logo-image">
+        </a>
+      </div>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html#landing-section" class="nav-link">Accueil</a>
+        <a href="index.html#about-section" class="nav-link">A Propos</a>
+        <a href="index.html#services-section" class="nav-link">Services</a>
+        <a href="index.html#categories-section" class="nav-link">Catégories</a>
+        <a href="index.html#contact-section" class="nav-link">Contact</a>
+      </div>
+      <div class="auth-buttons" id="auth-buttons">
+        <a href="signup.html" class="auth-button">
+          Inscription
+        </a>
+        <a href="login.html" class="auth-button">
+          Connexion
+        </a>
+      </div>
+      <button class="toggle-button" id="toggleButton">&#9776;</button>
+    </nav>
+  </section>
+
+
+  <main class="inscription-container">
+    <section class="content-wrapper">
+      <div class="image-column">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/f43cc676553548b654ad7d5fdb6f1c12c771077c97d37f252eb50b2ffa1bd83f?placeholderIfAbsent=true&apiKey=6857e1265b87489f84b0cc3502d7136b" alt="Illustration représentant l'inscription" class="hero-image">
+      </div>
+      <div class="form-column">
+        <div class="form-container">
+          <h1 class="main-title">Rejoignez nous sur <span class="highlight">E-Daara</span></h1>
+          <button class="social-login google">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/bc6b355cc971d48b4bf6545d971620742840af15449097e877e84c5799845971?placeholderIfAbsent=true&apiKey=6857e1265b87489f84b0cc3502d7136b" alt="Logo Google" class="social-icon">
+            <span>Login with Google</span>
+          </button>
+          <button class="social-login facebook">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/1a2bc9f60c63d678bad7fd72809881be898c09a064d2dcfda10fea6ceb793a23?placeholderIfAbsent=true&apiKey=6857e1265b87489f84b0cc3502d7136b" alt="Logo Facebook" class="social-icon">
+            <span>Login with Facebook</span>
+          </button>
+          <div class="separator">
+            <span class="line"></span>
+            <span class="or-text">OU</span>
+            <span class="line"></span>
+          </div>
+          <form class="signup-form">
+            <div class="input-group">
+              <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/23bf36bbac71c822f8b0ffab1dd46b35b1818bd4bc2138b60eb660cdc1dabd78?placeholderIfAbsent=true&apiKey=6857e1265b87489f84b0cc3502d7136b" alt="" class="input-icon">
+              <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/fcc6ba4e059b658f51673673461a0bcd6660f32ebace59395cd3999eb94dfacc?placeholderIfAbsent=true&apiKey=6857e1265b87489f84b0cc3502d7136b" alt="" class="input-icon overlay">
+              <div class="input-wrapper">
+                <label for="fullName" class="input-label">Nom complet</label>
+                <input type="text" id="fullName" name="fullName" value="Cheikh NDAO" class="form-input">
+              </div>
+            </div>
+            <div class="input-group">
+              <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/06c6ae219c654efa004f3131bf4bd66793d8fab7a15f51d470f7f2e947d68aff?placeholderIfAbsent=true&apiKey=6857e1265b87489f84b0cc3502d7136b" alt="" class="input-icon">
+              <div class="input-wrapper">
+                <label for="email" class="input-label">Email</label>
+                <input type="email" id="email" name="email" value="example@gmail.com" class="form-input">
+              </div>
+            </div>
+            <div class="input-group">
+              <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/8c852327e6d44508bccf269c659e6c9e9565015c7dac972b9818837d961b1109?placeholderIfAbsent=true&apiKey=6857e1265b87489f84b0cc3502d7136b" alt="" class="input-icon">
+              <div class="input-wrapper">
+                <label for="password" class="input-label">Password</label>
+                <input type="password" id="password" name="password" value="***********" class="form-input">
+              </div>
+              <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/7ada86adf5ca2ecd72f798610447171206c028741ea19ce82014d16fa65d90a5?placeholderIfAbsent=true&apiKey=6857e1265b87489f84b0cc3502d7136b" alt="Afficher/Masquer le mot de passe" class="toggle-password">
+            </div>
+            <button type="submit" class="submit-btn">S'inscrire</button>
+          </form>
+          <p class="login-link">Vous avez déjà un compte? <a href="login.html" class="login-action">Se connecter</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!----Footer Section -->
+
+  <footer class="footer">
+    <div class="logo-container" id="logo-container">
+      <img src="img/logo.png" style="background-color: #fff;" alt="E-daara Logo" class="logo" />
+    </div>
+    
+    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/31679d72b9a0e223d30f91e907873b4637f31ad4ebe4385017295855e36f14d2?placeholderIfAbsent=true&apiKey=c9b06d9462114f40a4989945771e3c48" alt="" class="divider" />
+    
+    <div class="footer-content">
+      <section class="contact-info-footer">
+        <h2 class="footer-heading">Contactez-nous</h2>
+        <div class="contact-item">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/2ca4edef78bc1db4bbd66061b88d4309027fd84cd0bb1b37b6e18c8cec9442be?placeholderIfAbsent=true&apiKey=c9b06d9462114f40a4989945771e3c48" alt="" class="contact-icon" />
+          <span>+1012 3456 789</span>
+        </div>
+        <div class="contact-item">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/f33a12af71453b99485ac9031fecc220eb9409e1999afd1ffbb8eef1e6b8f8f2?placeholderIfAbsent=true&apiKey=c9b06d9462114f40a4989945771e3c48" alt="" class="contact-icon" />
+          <span>contact@e-daara.sn</span>
+        </div>
+        <div class="contact-item">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/0a95236edbb272ad63891b22868a195f09637d663fca1420ca3cc4475295718e?placeholderIfAbsent=true&apiKey=c9b06d9462114f40a4989945771e3c48" alt="" class="contact-icon" />
+          <span>123 Rue 10 medina Dakar</span>
+        </div>
+      </section>
+  
+      <nav class="company-links">
+        <h2 class="footer-heading">Etablissement</h2>
+        <a href="index.html#landing-section" class="footer-link">Accueil</a>
+        <a href="index.html#about-section" class="footer-link">A Propos</a>
+        <a href="index.html#contact-section" class="footer-link">Contact</a>
+      </nav>
+  
+      <nav class="legal-links">
+        <h2 class="footer-heading">Legal</h2>
+        <a href="#" class="footer-link">Privacy Policy</a>
+        <a href="#" class="footer-link">Terms & Services</a>
+        <a href="#" class="footer-link">Terms of Use</a>
+      </nav>
+  
+      <nav class="quick-links">
+        <h2 class="footer-heading">Liens Rapides</h2>
+        <a href="index.html#services-section" class="footer-link">Nos Services</a>
+        <a href="index.html#categories-section" class="footer-link">Catégories de cours</a>
+        <a href="#" class="footer-link">FAQ</a>
+      </nav>
+  
+      <section class="newsletter">
+        <h2 class="footer-heading">Rejoins notre news letter</h2>
+        <form class="newsletter-form">
+          <label for="email-input" class="visually-hidden">Votre adresse e-mail</label>
+          <input type="email" id="email-input" class="newsletter-input" placeholder="Votre adresse e-mail" required />
+          <button type="submit" class="newsletter-button">Inscription</button>
+        </form>
+        <p class="newsletter-disclaimer">* Nous enverrons toutes les nouveautés chaque semaine</p>
+      </section>
+    </div>
+  </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
