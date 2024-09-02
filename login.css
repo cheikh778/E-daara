@@ -43,15 +43,17 @@
   }
   
   .welcome-title {
-    color: #2a61a4;
+    color: #000000;
     font-size: 36px;
-    font-weight: 900;
-    text-align: center;
+    font-weight: 600;
+    text-align: left;
   }
   
   .highlight {
     font-size: 46px;
     line-height: 62px;
+    color:#2a61a4;
+    font-weight: 900;
   }
   
   .social-login {

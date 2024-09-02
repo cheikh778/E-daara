@@ -1,3 +1,4 @@
+
 .inscription-container {
     background-color: #fff;
     display: flex;
@@ -70,14 +71,17 @@
   }
   
   .main-title {
-    color: #2a61a4;
-    text-align: center;
-    font: 900 36px/1 Poppins, sans-serif;
+    color: #000000;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: left;
   }
   
   .highlight {
     font-size: 46px;
     line-height: 62px;
+    color:#2a61a4;
+    font-weight: 900;
   }
   
   .social-login {
